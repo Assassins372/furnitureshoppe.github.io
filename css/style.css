@@ -111,4 +111,98 @@ h1#logo a{ display:block; height:61px; text-indent: -4000px; background:url(imag
 
 .tab-content { display:none;}
 
-.tabbed { min-height:420px;}
+.tabbed { min-height:700px;}
+
+
+#head{text-align: center;font-family:sans-serif;font-size: 1.5em;background-color:brown; color: white;padding: 10px;}
+
+/*contact us address right position*/
+
+#contact-info h2 {font-size: 18px;color: white;font-family:sans-serif;font-weight: bolder;padding-bottom: 9%;}
+#contact-info address{padding-bottom: 10%;}
+#contact-info {position:absolute; left:64.5%; background-color:brown; padding:4%; padding-bottom:1%; color: blanchedalmond;font-family:serif; font-size: 1em;}
+
+
+/*contact us map sec*/
+#gmap_canvas{height: 100%;width: 100%;}
+
+#fbox {position:absolute; width:900px; height:300px;}
+
+/*contact us wedding pic */
+.wedpic{position: absolute; left: 50%;top: 150%;float: right;margin-left: 20px;}
+#bann{padding-top: 3px;}
+
+/*contact us form*/
+.from { position:absolute; left:13%; top:145%; color: brown;padding: 20px;font-family: serif;}
+
+.from input,textarea{width: 200px;
+							height: 30px;
+							margin:4px;
+							color: black;
+							}
+							.from fieldset{padding: 10px;
+							margin: 10px;}
+							
+.from textarea{width: 440px;height: 100px; background:rgb(500,200,100);border:0px}	
+
+.from input:focus, textarea:focus {
+	background:rgb(500,300,100);
+  padding: 5px;
+  border:0.5px;
+ }		
+		
+/*order form*/
+
+
+#curpic{float:left; }
+#curpic2{ float:right; }
+
+.order{padding-left:300px; padding-right: 300px;}
+.order h1{text-align: center; padding:10px; background:gray;color: whitesmoke; }
+
+
+#ordertext{width: 350px;height: 100px;}
+.order form{padding: 10px;}
+#quan{width: 150px; height: 30px;}
+#personalinfo input{margin:5px; width: 150px; height: 30px;}
+
+.order textarea:focus {
+	background:rgb(500,300,100);
+  padding: 5px;
+  border:0.5px;
+ }	
+ 
+ /* product page*/
+
+ #probutton{background-color:greenyellow;border:0px; width: 200px; height: 30px;}
+ #probutton:hover{background-color:lightsalmon; width: 200px; height: 35px;}
+
+
+/*
+
+}
+.from input:focus, textarea:focus {
+  background   : rgba(0,0,0,.1);
+  b
+ 
+  outline      : none;
+}
+
+.from input {
+    height: 2.5em; /* for IE */
+    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
+/*
+
+{
+.from textarea {
+  display : block;
+
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+
+  resize  : none;
+  overflow: auto;
+}
+*/
